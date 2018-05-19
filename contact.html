@@ -5,41 +5,45 @@
     <head>
         <meta charset="UTF-8">
         <title>All About Me</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/contact.css">
 
     </head>
             <body>
-                <div class="Name">
+            <div class='header'>
                     <header>Marcus LeAnder Price</header>
+                        
+                    <span>
+                        <ul>
+                            <li><a href="contact.html">Contact</a></li>  
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="index.html">About</a></li>
+                        </ul>
+                    </span>  
                 </div>
             
-                <div class="Header">
-                    <header>About Me</header>
-                    
-                        <nav class="Navigation">
-                            <ul>
-                                <li><a href="index.html"> About |</a></li>
-                                <li><a href="portfolio.html"> Portfolio |</a></li>
-                                <li><a href="contact.html"> Contact </a></li>
-                            </ul>   
-                        </nav>
-                </div>
-                    
-                <form>
+                
                     <div class="Contact">
-                            <header>Contact</header>
-                            <ul>
-                                <li>Name</li> 
-                                    <input type="text" name="name" placeholder="John Doe">
-                                <li>Email</li>
-                                    <input type="email" name="email-address" placeholder="example@mgail.com">   
-                                <li>Message</li>
+                            <h1>Contact</h1>
+                            <hr>
+
+                        <div class="form">
+
+                            <label for="name">Name</label>
+                                <input type="text" name="name" placeholder="John Doe">
+
+                                <label for="email">Email</label>
+                                    <input type="email" name="email-address" placeholder="example@mgail.com"> 
+                                    
+                                <label for="message">Message</label>    
                                     <textarea name="comment"></textarea>
-                            </ul>
-        
+                            
+            
                             <input type="submit" name="submit" value="Send">
+
+                            </div>
                     </div>
-                </form>
+                
 
                 <div class="Footer">
                         <footer>Copyright (C)</footer>
